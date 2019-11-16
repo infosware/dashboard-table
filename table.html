@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Admin dashboard</title>
+  
+  <script src="https://kit.fontawesome.com/bf13e33196.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./table.css">
+</head>
+<body>  
+  <div class="wrapper">
+    <!-- Start Left menu area -->
+    <div class="sidebar">
+      <h2>Bootcamp</h2>
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-user-edit"></i>Authors</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-file-alt"></i>Articles</a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-globe"></i>Websites</a>
+        </li>
+      </ul>
+    </div>
+    <!-- End Left menu area -->
+
+    <div class="main-content">
+      <div class="header">Welcome to Admin dashboard</div>
+
+      <div class="entity-data-table-wrapper">
+        <div class="entity-data-table-header">
+          <h2>AUTHORS</h2>
+        </div>
+
+        <div class="entity-data-table-toolbar pull-right">
+          <div class="form-control-wrap">
+              <input class="form-control search" type="text" placeholder="Search">
+          </div>
+        </div>
+
+        <div class="entity-data-table-addedit">
+          <div class="form-control-wrap">
+              <input class="form-control" type="text" placeholder="Name">
+              <input class="form-control" type="text" placeholder="Age">
+              <input class="form-control" type="text" placeholder="Email">
+              <input class="form-control" type="text" placeholder="Country">
+          </div>
+        </div>
+        
+        
+        <div class="entity-data-table-body">
+          <table class="entity-data-table">
+            <thead class="entity-data-thead">
+              <tr>
+                <th class="entity-th entity-th-1">
+                  <div class="entity-th-inner ">Task</div>
+                </th>
+                <th class="entity-th entity-th-2">
+                  <div class="entity-th-inner ">Email</div>
+                </th>
+                <th class="entity-th entity-th-3">
+                  <div class="entity-th-inner ">Phone</div>
+                </th>
+                <th class="entity-th entity-th-4">
+                  <div class="entity-th-inner ">Completed</div>
+                </th>
+                <th class="entity-th entity-th-5">
+                  <div class="entity-th-inner ">Task</div>
+                </th>
+                <th class="entity-th entity-th-6">
+                  <div class="entity-th-inner ">Date</div>
+                </th>
+                <th class="entity-th entity-th-7">
+                  <div class="entity-th-inner ">Price</div>
+                </th>
+                <th class="entity-th entity-th-8">
+                  <div class="entity-th-inner ">Action</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="entity-data-tbody"> 
+              <tr> 
+                <td>
+                  <span>Web Development</span>
+                </td> 
+                <td>
+                  <span>admin@uttara.com</span>
+                </td> 
+                <td>
+                  <span>+8801962067309</span>
+                </td> 
+                <td>
+                  <span>1/6</span>
+                </td> 
+                <td>
+                  <span>10%</span>
+                </td> 
+                <td>
+                  <span>Jul 14, 2017</span>
+                </td> 
+                <td>
+                  <span>$5455</span>
+                </td> 
+                <td>
+                  <i class="fa fa-check"></i>
+                </td> 
+              </tr>
+              <tr> 
+                <td>
+                  <span>Graphic Design</span>
+                </td> 
+                <td>
+                  <span>fox@itpark.com</span>
+                </td> 
+                <td>
+                  <span>+8801762067304</span>
+                </td> 
+                <td>
+                  <span>230/360</span>
+                </td> 
+                <td>
+                  <span>70%</span>
+                </td> 
+                <td>
+                  <span>Feb 5, 2014</span>
+                </td> 
+                <td>
+                  <span>$8756</span>
+                </td> 
+                <td>
+                  <i class="fa fa-check"></i>
+                </td> 
+              </tr>
+              <tr> 
+                <td>
+                  <span>Software Development</span>
+                </td> 
+                <td>
+                  <span>gumre@hash.com</span>
+                </td> 
+                <td>
+                  <span>+8801862067308</span>
+                </td> 
+                <td>
+                  <span>0.42/1.461</span>
+                </td> 
+                <td>
+                  <span>5%</span>
+                </td> 
+                <td>
+                  <span>Sep 5, 2017</span>
+                </td> 
+                <td>
+                  <span>$9875</span>
+                </td> 
+                <td>
+                  <i class="fa fa-check"></i>
+                </td> 
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="entity-data-table-footer">
+          <div class="paginator">
+            <div class="paginator-info">
+              <ul class="paginator-list">
+                  <li class="paginator-page-number active">
+                      <a href="#">3</a>
+                  </li>
+                  <li class="paginator-page-number">
+                      <a href="#">5</a>
+                  </li>
+                  <li class="paginator-page-number">
+                      <a href="#">10</a>
+                  </li>
+                  <li class="paginator-page-number">
+                      <a href="#">All</a>
+                  </li>
+              </ul>
+              <span>rows per page</span>
+            </div>          
+            <div class="paginator-pages">
+                <ul class="paginator-list">
+                    <li class="paginator-page-pre">
+                        <a href="#">‹</a>
+                    </li>
+                    <li class="paginator-page-number active">
+                        <a href="#">1</a>
+                    </li>
+                    <li class="paginator-page-next">
+                        <a href="#">›</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      
+      <div class="footer">
+        Bootcamp admin dashboard project &copy; 2019
+      </div>
+    </div>  
+  </div>
+</body>
+</html>

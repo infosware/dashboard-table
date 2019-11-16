@@ -1,0 +1,158 @@
+/* Table styles */
+.entity-data-table-wrapper {
+  min-width: 920px;
+  background: #fff;
+  margin: 0 15px;
+  padding: 10px 0 0 0;
+}
+
+.entity-data-table-header {
+  margin: 10px;
+}
+
+.entity-data-table-wrapper .form-control-wrap {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.entity-data-table-wrapper .form-control-wrap .form-control {
+  background-color: #fff;
+  color: inherit;
+  display: block;
+  height: 35px;
+  box-shadow: none;
+  border: 1px solid rgb(229, 230, 231);
+  border-radius: 1px;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.entity-data-table-wrapper .form-control-wrap .form-control.search {
+  width: 350px;
+}
+
+.entity-data-table-addedit {
+  padding: 0px 10px;
+}
+
+.entity-data-table-addedit .form-control-wrap .form-control {
+  width: 25%;
+}
+
+.entity-data-table-body {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.entity-data-table {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.entity-data-thead {
+  border-bottom: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.entity-th {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 16px 8px;
+}
+
+.entity-th-1 {
+  width: 20%;
+}
+
+.entity-th-2 {
+  width: 17%;
+}
+.entity-th-3 {
+  width: 16%;
+}
+.entity-th-4 {
+  width: 11%;
+}
+.entity-th-5 {
+  width: 6%;
+}
+.entity-th-6 {
+  width: 13%;
+}
+.entity-th-7 {
+  width: 10%;
+}
+.entity-th-8 {
+  width: 7%;
+}
+
+.entity-data-tbody td {
+  border: 1px solid #ddd;
+  padding: 8px 5px 8px 10px;
+}
+
+.entity-data-table-footer {
+  padding: 0px 10px;
+}
+
+.entity-data-table-footer .paginator {
+  font-size: 14px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entity-data-table-footer .paginator .paginator-select {
+  margin: 0 5px;
+}
+
+/* Pagination */
+.paginator .active {
+  background: rgb(246, 246, 246);
+}
+
+.paginator-info {
+  display: flex;
+}
+
+.paginator-info span {
+  line-height: 2;
+  margin-left: 5px;
+}
+
+.paginator-list {
+  display: flex;
+}
+
+.paginator-list li {
+  padding: 4px 0;
+}
+
+.paginator-list li a {
+  position: relative;
+  padding: 6px 12px;
+  line-height: 1.428571429; 
+  margin-left: -1px;
+  color: rgb(141, 148, 152);
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.paginator-list li:hover {
+  background: rgb(246, 246, 246);
+}
+
+.paginator-list li:hover a {
+  color: rgb(85, 85, 85);
+}
+
+/* Helpers */
+.pull-right {
+  display: flex;
+  justify-content: flex-end;
+}
